@@ -380,6 +380,28 @@ address{
 }
 .hours-note{ color:var(--paper-dim); margin:0 0 18px; }
 .hours-note em{ color:var(--paper); font-style:normal; }
+.hours-table{
+  margin:0 0 22px;
+  max-width:380px;
+}
+.hours-row{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  padding:9px 0;
+  border-bottom:1px solid var(--stone-line);
+  font-family:var(--mono);
+  font-size:0.86rem;
+}
+.hours-row:last-child{ border-bottom:none; }
+.hours-row span:first-child{ color:var(--paper); }
+.hours-row span:last-child{ color:var(--paper-dim); }
+.hours-row .closed{
+  color:var(--brass);
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+  font-size:0.78rem;
+}
 .map-frame{
   border:1px solid var(--stone-line);
   border-radius:var(--radius);
