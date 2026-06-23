@@ -3,4 +3,4 @@ Allow: /
 Disallow: /impressum.html
 Disallow: /datenschutz.html
 
-Sitemap: https://DEIN-USERNAME.github.io/feros_barbier/sitemap.xml
+Sitemap: https://andilar.github.io/feros_barbier/sitemap.xml
