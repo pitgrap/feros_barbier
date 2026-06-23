@@ -33,36 +33,6 @@ In `impressum.html` und `datenschutz.html` stehen gold hinterlegte Platzhalter
 
 Einfach mit Strg+F nach `[` suchen, dann findest du alle offenen Stellen.
 
-**Wichtig:** Ich bin kein Anwalt. Lass Impressum und Datenschutzerklärung am Ende einmal
-von einem Anwalt oder z. B. dem kostenlosen Generator von eRecht24 oder der IHK
-gegenprüfen, bevor die Seite live geht.
-
-Außerdem in `index.html`, `robots.txt` und `sitemap.xml`: Sobald die Seite eine echte
-URL hat (GitHub Pages oder eigene Domain), `https://DEIN-USERNAME.github.io/feros_barbier/`
-durch die tatsächliche Adresse ersetzen (Open-Graph-Tags, Structured Data, Sitemap).
-
-## Lokal ansehen
-Einfach `index.html` doppelklicken und im Browser öffnen, kein Server nötig.
-
-## Auf GitHub Pages hosten (kostenlos)
-
-1. Neues Repository auf GitHub erstellen, z. B. `feros_barbier`
-2. Diesen Ordnerinhalt hochladen (entweder per Drag&Drop im Browser oder per Git):
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Fero's Barbier Website"
-   git branch -M main
-   git remote add origin https://github.com/DEIN-USERNAME/feros_barbier.git
-   git push -u origin main
-   ```
-3. Im Repository zu **Settings → Pages**
-4. Unter "Branch" `main` und Ordner `/ (root)` auswählen → **Save**
-5. Nach 1–2 Minuten ist die Seite live unter:
-   ```
-   https://DEIN-USERNAME.github.io/feros_barbier/
-   ```
-
 ## Was zusätzlich eingebaut wurde
 - **Impressum & Datenschutz**: eigene Unterseiten, im Footer jeder Seite verlinkt
 - **Favicon**: aus dem Logo erzeugt, in allen gängigen Größen (Browser-Tab, Homescreen)
